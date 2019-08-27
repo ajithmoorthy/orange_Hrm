@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite2]">
+  <test name="Test3(failed)">
+    <classes>
+      <class name="com.atmecs.utils.testscripts.Navigation">
+        <methods>
+          <include name="navigation"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.atmecs.utils.testscripts.Navigation -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+</suite> <!-- Failed suite [Suite2] -->
